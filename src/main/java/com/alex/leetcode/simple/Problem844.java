@@ -24,7 +24,7 @@ public class Problem844 {
     public static boolean backspaceCompare(String S, String T) {
         return getString(S).equals(getString(T));
     }
-    
+
     public static String getString(String str) {
         StringBuilder sb = new StringBuilder();
         int deleteNum = 0;
